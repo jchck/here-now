@@ -68,3 +68,5 @@ function herenow_pod_cpt() {
 }
 
 add_action( 'init', 'herenow_pod_cpt' );
+
+require_once __DIR__ . '/lib/metaboxes.php';
