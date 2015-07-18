@@ -3,7 +3,7 @@
 /*
 Plugin Name:        Here & Now
 Plugin URI:         https://github.com/jchck/here-now
-Description:        A pplugin to host and manage your podcast via WordPress
+Description:        Plugin to host/manage Here & Now Podcast
 Version:            0.1.0
 Author:             jchck_
 Author URI:         https://justinchick.com/
