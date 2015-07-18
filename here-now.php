@@ -4,7 +4,7 @@
 Plugin Name:        Here & Now
 Plugin URI:         https://github.com/jchck/here-now
 Description:        Plugin to host/manage Here & Now Podcast
-Version:            0.1.0
+Version:            1.0.0
 Author:             jchck_
 Author URI:         https://justinchick.com/
 License:            MIT License
