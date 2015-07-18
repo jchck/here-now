@@ -37,9 +37,9 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
     <itunes:explicit>yes</itunes:explicit>
     
     <?php // Change to your own image. Must be at least 1400 x 1400: https://www.apple.com/itunes/podcasts/creatorfaq.html ?> 
-    <itunes:image href="http://i1.sndcdn.com/avatars-000149273945-enb9kz-original.jpg"/>
+    <itunes:image href="<?php echo plugins_url( 'assets/img/logo.jpg', dirname(__FILE__) ); ?>"/>
     <image>
-      <url>http://i1.sndcdn.com/avatars-000149273945-enb9kz-original.jpg</url>
+      <url><?php echo plugins_url( 'assets/img/logo.jpg', dirname(__FILE__) ); ?></url>
       <title>Here and Now</title>
       <link>http://hereandnow.io</link>
     </image>
@@ -51,7 +51,7 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
       <title><?php the_title_rss(); ?></title>
       <itunes:author><?php echo get_bloginfo('name'); ?></itunes:author>
       <itunes:summary><?php the_excerpt_rss(50, 0); ?></itunes:summary>
-      <itunes:image href="http://i1.sndcdn.com/avatars-000149273945-enb9kz-original.jpg" />
+      <itunes:image href="<?php echo plugins_url( 'assets/img/logo.jpg', dirname(__FILE__) ); ?>" />
       
       <?php // Get the file field URL and filesize
         $attachment_id = get_field('audio_file');
