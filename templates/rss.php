@@ -34,7 +34,7 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
       <itunes:email><?php echo get_bloginfo('admin_email'); ?></itunes:email>
     </itunes:owner>
     
-    <?php // Change to your own image. Must be at least 1400 x 1400: https://www.apple.com/itunes/podcasts/creatorfaq.html
+    <?php // Change to your own image. Must be at least 1400 x 1400: https://www.apple.com/itunes/podcasts/creatorfaq.html 
     <itunes:image href="http://your-site.com/path/to/podcast/image.png" />
     
     <itunes:category text="Technology">

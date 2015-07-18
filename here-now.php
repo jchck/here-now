@@ -16,6 +16,10 @@ function herenow_pod_rss(){
 	add_feed( 'here-now', 'herenow_feed' );
 }
 
+function herenow_feed(){
+  require_once( dirname( __FILE__ ) . '/templates/rss.php' );
+}
+
 /**
 * Registers a new post type
 * @uses $wp_post_types Inserts new post type object into the list
