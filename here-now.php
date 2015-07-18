@@ -2,9 +2,9 @@
 
 /*
 Plugin Name:        Here & Now
-Plugin URI:         https://hereandnow.io/
+Plugin URI:         https://github.com/jchck/here-now
 Description:        A pplugin to host and manage your podcast via WordPress
-Version:            0.0.0
+Version:            0.1.0
 Author:             jchck_
 Author URI:         https://justinchick.com/
 License:            MIT License
